@@ -2,61 +2,61 @@
 	"@context": [
 		"https://schema.org/docs/jsonldcontext.json",
 		{
-			"@vocab": "http://json2ld.mapper.tokyo/ns/",
-			"json2ld": "http://json2ld.mapper.tokyo/ns/",
+			"@vocab": "http://ddbj.nig.ac.jp/ontologies/bioproject/",
+			"bioproject": "http://ddbj.nig.ac.jp/ontologies/bioproject/",
 			"properties": {
-				"@id": "json2ld:properties"
+				"@id": "bioproject:properties"
 			},
 			"Project": {
 				"@id": "schema:Project"
 			},
 			"Submission": {
-				"@id": "json2ld:Submission"
+				"@id": "bioproject:Submission"
 			},
 			"ProjectLinks": {
-				"@id": "json2ld:ProjectLinks"
+				"@id": "bioproject:ProjectLinks"
 			},
 			"ProjectID": {
-				"@id": "json2ld:ProjectID"
+				"@id": "bioproject:ProjectID"
 			},
 			"ProjectDescr": {
-				"@id": "json2ld:ProjectDescr"
+				"@id": "bioproject:ProjectDescr"
 			},
 			"ProjectType": {
-				"@id": "json2ld:ProjectType"
+				"@id": "bioproject:ProjectType"
 			},
 			"ArchiveID": {
-				"@id": "json2ld:ArchiveID"
+				"@id": "bioproject:ArchiveID"
 			},
 			"accession": {
-				"@id": "json2ld:accession"
+				"@id": "bioproject:accession"
 			},
 			"archive": {
-				"@id": "json2ld:archive"
+				"@id": "bioproject:archive"
 			},
 			"id": {
-				"@id": "json2ld:id"
+				"@id": "bioproject:id"
 			},
 			"Name": {
-				"@id": "json2ld:Name"
+				"@id": "bioproject:Name"
 			},
 			"Title": {
-				"@id": "json2ld:Title"
+				"@id": "bioproject:Title"
 			},
 			"Description": {
-				"@id": "json2ld:Description"
+				"@id": "bioproject:Description"
 			},
 			"ExternalLink": {
-				"@id": "json2ld:ExternalLink"
+				"@id": "bioproject:ExternalLink"
 			},
 			"Publication": {
-				"@id": "json2ld:Publication"
+				"@id": "bioproject:Publication"
 			},
 			"category": {
 				"@id": "schema:category"
 			},
 			"label": {
-				"@id": "json2ld:label"
+				"@id": "bioproject:label"
 			},
 			"URL": {
 				"@id": "schema:URL"
@@ -65,139 +65,139 @@
 				"@id": "schema:status"
 			},
 			"Reference": {
-				"@id": "json2ld:Reference"
+				"@id": "bioproject:Reference"
 			},
 			"StructuredCitation": {
-				"@id": "json2ld:StructuredCitation"
+				"@id": "bioproject:StructuredCitation"
 			},
 			"Journal": {
-				"@id": "json2ld:Journal"
+				"@id": "bioproject:Journal"
 			},
 			"AuthorSet": {
-				"@id": "json2ld:AuthorSet"
+				"@id": "bioproject:AuthorSet"
 			},
 			"JournalTitle": {
-				"@id": "json2ld:JournalTitle"
+				"@id": "bioproject:JournalTitle"
 			},
 			"Year": {
-				"@id": "json2ld:Year"
+				"@id": "bioproject:Year"
 			},
 			"Volume": {
-				"@id": "json2ld:Volume"
+				"@id": "bioproject:Volume"
 			},
 			"Issue": {
-				"@id": "json2ld:Issue"
+				"@id": "bioproject:Issue"
 			},
 			"PagesFrom": {
-				"@id": "json2ld:PagesFrom"
+				"@id": "bioproject:PagesFrom"
 			},
 			"PagesTo": {
-				"@id": "json2ld:PagesTo"
+				"@id": "bioproject:PagesTo"
 			},
 			"Author": {
-				"@id": "json2ld:Author"
+				"@id": "bioproject:Author"
 			},
 			"First": {
-				"@id": "json2ld:First"
+				"@id": "bioproject:First"
 			},
 			"Last": {
-				"@id": "json2ld:Last"
+				"@id": "bioproject:Last"
 			},
 			"Consortium": {
 				"@id": "schema:Consortium"
 			},
 			"DbType": {
-				"@id": "json2ld:DbType"
+				"@id": "bioproject:DbType"
 			},
 			"date": {
-				"@id": "json2ld:date"
+				"@id": "bioproject:date"
 			},
 			"ProjectTypeSubmission": {
-				"@id": "json2ld:ProjectTypeSubmission"
+				"@id": "bioproject:ProjectTypeSubmission"
 			},
 			"Target": {
-				"@id": "json2ld:Target"
+				"@id": "bioproject:Target"
 			},
 			"Method": {
-				"@id": "json2ld:Method"
+				"@id": "bioproject:Method"
 			},
 			"Objectives": {
-				"@id": "json2ld:Objectives"
+				"@id": "bioproject:Objectives"
 			},
 			"IntendedDataTypeSet": {
-				"@id": "json2ld:IntendedDataTypeSet"
+				"@id": "bioproject:IntendedDataTypeSet"
 			},
 			"ProjectDataTypeSet": {
-				"@id": "json2ld:ProjectDataTypeSet"
+				"@id": "bioproject:ProjectDataTypeSet"
 			},
 			"capture": {
-				"@id": "json2ld:capture"
+				"@id": "bioproject:capture"
 			},
 			"material": {
 				"@id": "schema:material"
 			},
 			"sample_scope": {
-				"@id": "json2ld:sample_scope"
+				"@id": "bioproject:sample_scope"
 			},
 			"Organism": {
-				"@id": "json2ld:Organism"
+				"@id": "bioproject:Organism"
 			},
 			"species": {
-				"@id": "json2ld:species"
+				"@id": "bioproject:species"
 			},
 			"taxID": {
 				"@id": "schema:taxID"
 			},
 			"OrganismName": {
-				"@id": "json2ld:OrganismName"
+				"@id": "bioproject:OrganismName"
 			},
 			"Supergroup": {
-				"@id": "json2ld:Supergroup"
+				"@id": "bioproject:Supergroup"
 			},
 			"method_type": {
-				"@id": "json2ld:method_type"
+				"@id": "bioproject:method_type"
 			},
 			"Data": {
-				"@id": "json2ld:Data"
+				"@id": "bioproject:Data"
 			},
 			"data_type": {
-				"@id": "json2ld:data_type"
+				"@id": "bioproject:data_type"
 			},
 			"content": {
-				"@id": "json2ld:content"
+				"@id": "bioproject:content"
 			},
 			"DataType": {
 				"@id": "schema:DataType"
 			},
 			"submitted": {
-				"@id": "json2ld:submitted"
+				"@id": "bioproject:submitted"
 			},
 			"Organization": {
 				"@id": "schema:Organization"
 			},
 			"Access": {
-				"@id": "json2ld:Access"
+				"@id": "bioproject:Access"
 			},
 			"role": {
-				"@id": "json2ld:role"
+				"@id": "bioproject:role"
 			},
 			"type": {
-				"@id": "json2ld:type"
+				"@id": "bioproject:type"
 			},
 			"Link": {
-				"@id": "json2ld:Link"
+				"@id": "bioproject:Link"
 			},
 			"ProjectIDRef": {
-				"@id": "json2ld:ProjectIDRef"
+				"@id": "bioproject:ProjectIDRef"
 			},
 			"Hierarchical": {
-				"@id": "json2ld:Hierarchical"
+				"@id": "bioproject:Hierarchical"
 			},
 			"MemberID": {
-				"@id": "json2ld:MemberID"
+				"@id": "bioproject:MemberID"
 			},
 			"organism": {
-				"@id": "json2ld:organism"
+				"@id": "bioproject:organism"
 			},
 			"identifier": {
 				"@id": "schema:identifier"
@@ -209,7 +209,7 @@
 				"@id": "schema:description"
 			},
 			"title": {
-				"@id": "schema:title"
+				"@id": "bioproject:title"
 			},
 			"dateCreated": {
 				"@id": "schema:dateCreated"
@@ -221,7 +221,7 @@
 				"@id": "schema:datePublished"
 			},
 			"visibility": {
-				"@id": "json2ld:visibility"
+				"@id": "bioproject:visibility"
 			},
 			"distribution": {
 				"@id": "schema:distribution"
