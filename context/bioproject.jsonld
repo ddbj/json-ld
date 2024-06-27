@@ -1,0 +1,243 @@
+{
+	"@context": [
+		"https://schema.org/docs/jsonldcontext.json",
+		{
+			"@vocab": "http://json2ld.mapper.tokyo/ns/",
+			"json2ld": "http://json2ld.mapper.tokyo/ns/",
+			"properties": {
+				"@id": "json2ld:properties"
+			},
+			"Project": {
+				"@id": "schema:Project"
+			},
+			"Submission": {
+				"@id": "json2ld:Submission"
+			},
+			"ProjectLinks": {
+				"@id": "json2ld:ProjectLinks"
+			},
+			"ProjectID": {
+				"@id": "json2ld:ProjectID"
+			},
+			"ProjectDescr": {
+				"@id": "json2ld:ProjectDescr"
+			},
+			"ProjectType": {
+				"@id": "json2ld:ProjectType"
+			},
+			"ArchiveID": {
+				"@id": "json2ld:ArchiveID"
+			},
+			"accession": {
+				"@id": "json2ld:accession"
+			},
+			"archive": {
+				"@id": "json2ld:archive"
+			},
+			"id": {
+				"@id": "json2ld:id"
+			},
+			"Name": {
+				"@id": "json2ld:Name"
+			},
+			"Title": {
+				"@id": "json2ld:Title"
+			},
+			"Description": {
+				"@id": "json2ld:Description"
+			},
+			"ExternalLink": {
+				"@id": "json2ld:ExternalLink"
+			},
+			"Publication": {
+				"@id": "json2ld:Publication"
+			},
+			"category": {
+				"@id": "schema:category"
+			},
+			"label": {
+				"@id": "json2ld:label"
+			},
+			"URL": {
+				"@id": "schema:URL"
+			},
+			"status": {
+				"@id": "schema:status"
+			},
+			"Reference": {
+				"@id": "json2ld:Reference"
+			},
+			"StructuredCitation": {
+				"@id": "json2ld:StructuredCitation"
+			},
+			"Journal": {
+				"@id": "json2ld:Journal"
+			},
+			"AuthorSet": {
+				"@id": "json2ld:AuthorSet"
+			},
+			"JournalTitle": {
+				"@id": "json2ld:JournalTitle"
+			},
+			"Year": {
+				"@id": "json2ld:Year"
+			},
+			"Volume": {
+				"@id": "json2ld:Volume"
+			},
+			"Issue": {
+				"@id": "json2ld:Issue"
+			},
+			"PagesFrom": {
+				"@id": "json2ld:PagesFrom"
+			},
+			"PagesTo": {
+				"@id": "json2ld:PagesTo"
+			},
+			"Author": {
+				"@id": "json2ld:Author"
+			},
+			"First": {
+				"@id": "json2ld:First"
+			},
+			"Last": {
+				"@id": "json2ld:Last"
+			},
+			"Consortium": {
+				"@id": "schema:Consortium"
+			},
+			"DbType": {
+				"@id": "json2ld:DbType"
+			},
+			"date": {
+				"@id": "json2ld:date"
+			},
+			"ProjectTypeSubmission": {
+				"@id": "json2ld:ProjectTypeSubmission"
+			},
+			"Target": {
+				"@id": "json2ld:Target"
+			},
+			"Method": {
+				"@id": "json2ld:Method"
+			},
+			"Objectives": {
+				"@id": "json2ld:Objectives"
+			},
+			"IntendedDataTypeSet": {
+				"@id": "json2ld:IntendedDataTypeSet"
+			},
+			"ProjectDataTypeSet": {
+				"@id": "json2ld:ProjectDataTypeSet"
+			},
+			"capture": {
+				"@id": "json2ld:capture"
+			},
+			"material": {
+				"@id": "schema:material"
+			},
+			"sample_scope": {
+				"@id": "json2ld:sample_scope"
+			},
+			"Organism": {
+				"@id": "json2ld:Organism"
+			},
+			"species": {
+				"@id": "json2ld:species"
+			},
+			"taxID": {
+				"@id": "schema:taxID"
+			},
+			"OrganismName": {
+				"@id": "json2ld:OrganismName"
+			},
+			"Supergroup": {
+				"@id": "json2ld:Supergroup"
+			},
+			"method_type": {
+				"@id": "json2ld:method_type"
+			},
+			"Data": {
+				"@id": "json2ld:Data"
+			},
+			"data_type": {
+				"@id": "json2ld:data_type"
+			},
+			"content": {
+				"@id": "json2ld:content"
+			},
+			"DataType": {
+				"@id": "schema:DataType"
+			},
+			"submitted": {
+				"@id": "json2ld:submitted"
+			},
+			"Organization": {
+				"@id": "schema:Organization"
+			},
+			"Access": {
+				"@id": "json2ld:Access"
+			},
+			"role": {
+				"@id": "json2ld:role"
+			},
+			"type": {
+				"@id": "json2ld:type"
+			},
+			"Link": {
+				"@id": "json2ld:Link"
+			},
+			"ProjectIDRef": {
+				"@id": "json2ld:ProjectIDRef"
+			},
+			"Hierarchical": {
+				"@id": "json2ld:Hierarchical"
+			},
+			"MemberID": {
+				"@id": "json2ld:MemberID"
+			},
+			"organism": {
+				"@id": "json2ld:organism"
+			},
+			"identifier": {
+				"@id": "schema:identifier"
+			},
+			"name": {
+				"@id": "schema:name"
+			},
+			"description": {
+				"@id": "schema:description"
+			},
+			"title": {
+				"@id": "schema:title"
+			},
+			"dateCreated": {
+				"@id": "schema:dateCreated"
+			},
+			"dateModified": {
+				"@id": "schema:dateModified"
+			},
+			"datePublished": {
+				"@id": "schema:datePublished"
+			},
+			"visibility": {
+				"@id": "json2ld:visibility"
+			},
+			"distribution": {
+				"@id": "schema:distribution"
+			},
+			"contentUrl": {
+				"@id": "schema:contentUrl"
+			},
+			"encodingFormat": {
+				"@id": "schema:encodingFormat"
+			},
+			"isPartOf": {
+				"@id": "schema:isPartOf"
+			},
+			"url": {
+				"@id": "schema:url"
+			}
+		}
+	]
+}
