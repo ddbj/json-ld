@@ -1,0 +1,409 @@
+{
+  "@context": "https://raw.githubusercontent.com/ddbj/rdf/main/context/bioproject.jsonl",
+  "properties": {
+    "Project": {
+      "Project": {
+        "ProjectID": {
+          "ArchiveID": {
+            "accession": "PRJNA13193",
+            "archive": "NCBI",
+            "id": "13193"
+          }
+        },
+        "ProjectDescr": {
+          "Name": "Arabidopsis thaliana",
+          "Title": "cDNA sequencing projects by French-American consortium",
+          "Description": "About 30,000 Arabidopsis thaliana ESTs were sequenced and analysed by the French-American consortium. <a href=\"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=8281187&query_hl=6\">Hofte et al</a> at the Laboratoire de Biologie Cellulaire, France, and <a href=\"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=8580968&query_hl=8\">Cooke at al</a> at the Laboratoire de Physiologie et Biologie Moleculaires Vegetal es, France, generated large number of Arabidopsis ESTs.\r<p>\rcDNA Sequence Analysis project was carried out at the University of Minnesota and Michigan State University. This work was funded by NSF Grant BIR 931-3751 to Michigan University and  NSF Grant BIR 940-2380 to University of Minnesota.",
+          "ExternalLink": {
+            "category": "Related Resources",
+            "label": "Univ. of Minnesota",
+            "URL": "http://weedsworld.arabidopsis.org.uk/Vol2ii/tutorial.fm3.html"
+          },
+          "Publication": [
+            {
+              "id": "8580968",
+              "status": "ePublished",
+              "Reference": null,
+              "StructuredCitation": {
+                "Title": "Further progress towards a catalogue of all Arabidopsis genes: analysis of a set of 5000 non-redundant ESTs.",
+                "Journal": {
+                  "JournalTitle": "The Plant journal : for cell and molecular biology",
+                  "Year": "1996",
+                  "Volume": "9",
+                  "Issue": "1",
+                  "PagesFrom": "101",
+                  "PagesTo": "24"
+                },
+                "AuthorSet": {
+                  "Author": [
+                    {
+                      "Name": {
+                        "First": "R",
+                        "Last": "Cooke"
+                      },
+                      "Consortium": "Laboratoire de Physiologie et Biologie Moléculaires Végétal es, URA565 du CNRS, Université de Perpignan, France. cooke@univ-perp.fr"
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Raynal"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Laudié"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "F",
+                        "Last": "Grellet"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Delseny"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "P C",
+                        "Last": "Morris"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "D",
+                        "Last": "Guerrier"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "J",
+                        "Last": "Giraudat"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "F",
+                        "Last": "Quigley"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "G",
+                        "Last": "Clabault"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "Y F",
+                        "Last": "Li"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "R",
+                        "Last": "Mache"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Krivitzky"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "I J",
+                        "Last": "Gy"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Kreis"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "A",
+                        "Last": "Lecharny"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "Y",
+                        "Last": "Parmentier"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "J",
+                        "Last": "Marbach"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "J",
+                        "Last": "Fleck"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "B",
+                        "Last": "Clément"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "G",
+                        "Last": "Philipps"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "C",
+                        "Last": "Hervé"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "C",
+                        "Last": "Bardet"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "D",
+                        "Last": "Tremousaygue"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "H",
+                        "Last": "Höfte"
+                      }
+                    }
+                  ]
+                }
+              },
+              "DbType": "ePubmed"
+            },
+            {
+              "id": "7846151",
+              "status": "ePublished",
+              "Reference": null,
+              "StructuredCitation": {
+                "Title": "Genes galore: a summary of methods for accessing results from large-scale partial sequencing of anonymous Arabidopsis cDNA clones.",
+                "Journal": {
+                  "JournalTitle": "Plant physiology",
+                  "Year": "1994",
+                  "Volume": "106",
+                  "Issue": "4",
+                  "PagesFrom": "1241",
+                  "PagesTo": "55"
+                },
+                "AuthorSet": {
+                  "Author": [
+                    {
+                      "Name": {
+                        "First": "T",
+                        "Last": "Newman"
+                      },
+                      "Consortium": "Department of Energy Plant Research Laboratory, Michigan State University, East Lansing 48824."
+                    },
+                    {
+                      "Name": {
+                        "First": "F J",
+                        "Last": "de Bruijn"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "P",
+                        "Last": "Green"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "K",
+                        "Last": "Keegstra"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "H",
+                        "Last": "Kende"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "L",
+                        "Last": "McIntosh"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "J",
+                        "Last": "Ohlrogge"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "N",
+                        "Last": "Raikhel"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "S",
+                        "Last": "Somerville"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Thomashow"
+                      }
+                    }
+                  ]
+                }
+              },
+              "DbType": "ePubmed"
+            },
+            {
+              "date": "1997-02-24T00:00:00Z",
+              "id": "9091305",
+              "status": "ePublished",
+              "Reference": null,
+              "StructuredCitation": {
+                "Title": "The Arabidopsis thaliana cDNA sequencing projects.",
+                "Journal": {
+                  "JournalTitle": "FEBS letters",
+                  "Year": "1997",
+                  "Volume": "403",
+                  "Issue": "3",
+                  "PagesFrom": "221",
+                  "PagesTo": "4"
+                },
+                "AuthorSet": {
+                  "Author": [
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Delseny"
+                      },
+                      "Consortium": "University of Perpignan, Laboratoire de Physiologie et Biologie Moléculaire des Plantes, UMR 5545 CNRS, France. delseny@univ-perp.fr"
+                    },
+                    {
+                      "Name": {
+                        "First": "R",
+                        "Last": "Cooke"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "M",
+                        "Last": "Raynal"
+                      }
+                    },
+                    {
+                      "Name": {
+                        "First": "F",
+                        "Last": "Grellet"
+                      }
+                    }
+                  ]
+                }
+              },
+              "DbType": "ePubmed"
+            }
+          ]
+        },
+        "ProjectType": {
+          "ProjectTypeSubmission": {
+            "Target": {
+              "capture": "eWhole",
+              "material": "eTranscriptome",
+              "sample_scope": "eMonoisolate",
+              "Organism": {
+                "species": "3702",
+                "taxID": "3702",
+                "OrganismName": "Arabidopsis thaliana",
+                "Supergroup": "eEukaryotes"
+              }
+            },
+            "Method": {
+              "method_type": "eOther"
+            },
+            "Objectives": {
+              "Data": {
+                "data_type": "eMaps",
+                "content": "Map method"
+              }
+            },
+            "IntendedDataTypeSet": {
+              "DataType": "transcriptome"
+            },
+            "ProjectDataTypeSet": {
+              "DataType": "transcriptome"
+            }
+          }
+        }
+      },
+      "Submission": {
+        "submitted": "2004-11-19",
+        "Description": {
+          "Organization": {
+            "role": "owner",
+            "type": "center",
+            "Name": {
+              "content": "NCBI"
+            }
+          },
+          "Access": "public"
+        }
+      },
+      "ProjectLinks": {
+        "Link": {
+          "ProjectIDRef": {
+            "archive": "NCBI",
+            "id": "13193",
+            "accession": "PRJNA13193"
+          },
+          "Hierarchical": {
+            "type": "TopSingle",
+            "MemberID": {
+              "archive": "NCBI",
+              "id": "9506",
+              "accession": "PRJNA9506"
+            }
+          }
+        }
+      }
+    }
+  },
+  "organism": {
+    "identifier": "3702",
+    "name": "Arabidopsis thaliana"
+  },
+  "description": null,
+  "title": null,
+  "dateCreated": "2004-11-19",
+  "dateModified": null,
+  "datePublished": "2024-06-11T00:00:00Z",
+  "status": "public",
+  "visibility": "unrestricted-access",
+  "distribution": {
+    "contentUrl": "",
+    "encodingFormat": ""
+  },
+  "identifier": "PRJNA13193",
+  "isPartOf": "bioproject",
+  "type": "bioProject",
+  "name": null,
+  "url": null
+}
