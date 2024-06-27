@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/ddbj/rdf/main/context/bioproject.jsonl",
+  "@context": "https://raw.githubusercontent.com/ddbj/rdf/main/context/bioproject.jsonld",
   "properties": {
     "Project": {
       "Project": {
