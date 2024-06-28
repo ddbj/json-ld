@@ -1,0 +1,54 @@
+{
+  "@context": "insdc.jsonld",
+  "@id": "insdc:A00001",
+  "entry_id": "A00001",
+  "length": 335,
+  "strand": "",
+  "moltype": "DNA",
+  "linearity": "linear",
+  "division": "PAT",
+  "date": "01-SEP-2018",
+  "definition": "Cauliflower mosaic virus satellite cDNA.",
+  "keywords": [],
+  "organism": "Cauliflower mosaic virus",
+  "common_name": "Cauliflower mosaic virus",
+  "taxonomy": "Viruses; Ortervirales; Caulimoviridae; Caulimovirus.",
+  "comment": "",
+  "references": [
+    {
+      "embl_gb_record_number": 1,
+      "authors": [
+        "Baulcombe D.C.",
+        "Mayo M.A.",
+        "Harrison B.D.",
+        "Bevan M.W."
+      ],
+      "title": "Modification of plant viruses or their effects.",
+      "journal": "Patent number EP0242016-A1/1, 21-OCT-1987. AGRICULTURAL GENETICS COMPANY LIMITED.",
+      "sequence_position": "1-335"
+    }
+  ],
+  "features": [
+    {
+      "feature": "source",
+      "position": "1..335",
+      "organism": [
+        "Cauliflower mosaic virus"
+      ],
+      "mol_type": [
+        "unassigned DNA"
+      ],
+      "db_xref": [
+        "taxon:10641"
+      ]
+    },
+    {
+      "feature": "misc_feature",
+      "position": "1..335",
+      "note": [
+        "satellite DNA"
+      ]
+    }
+  ],
+  "sequence": "gttttgtttgatggagaattgcgcagaggggttatatctgcgtgaggatctgtcactcggcggtgtgggatacctccctgctaaggcgggttgagtgatgttccctcggactggggaccgctggcttgcgagctatgtccgctactctcagtactacactctcatttgagcccccgctcagtttgctagcagaacccggcacatggttcgccgataccatggaatttcgaaagaaacactctgttaggtggtatgagtcatgacgcacgcagggagaggctaaggcttatgctatgctgatctccgtgaatgtctatcattcctacacaggaccc"
+}
