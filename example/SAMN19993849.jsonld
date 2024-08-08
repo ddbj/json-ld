@@ -18,7 +18,7 @@
   "dateModified": "2021-07-02T01:28:33Z",
   "title": "MIMARKS Survey related sample from ant fungus garden metagenome",
   "type": "biosample",
-  "isPartOf": "biosample",
+  "isPartOf": "BioSample",
   "distribution": [
     {
       "contentUrl": "https://ddbj.nig.ac.jp/resource/biosample/SAMN19993849.json",
@@ -88,7 +88,7 @@
       "url": "https://ddbj.nig.ac.jp/resource/sra-sample/SRS9365947"
     }
   ],
-  "url": "https://ddbj.nig.ac.jp/resource/biosample/SAMN19993849",
+  "url": "https://ddbj.nig.ac.jp/search/entry/biosample/SAMN19993849",
   "datePublished": "2021-07-01T00:00:00Z",
   "dateCreated": "2021-07-01T16:38:36Z",
   "name": null,
@@ -279,5 +279,85 @@
       "url": "https://ddbj.nig.ac.jp/resource/sra-sample/SRS9365947"
     }
   ],
-  "status": "public"
+  "status": "public",
+  "model": [
+    {
+      "name": "MIMARKS.survey"
+    },
+    {
+      "name": "MIGS/MIMS/MIMARKS.host-associated"
+    }
+  ],
+  "Package": {
+    "display_name": "MIMARKS: survey, host-associated; version 5.0",
+    "name": "MIMARKS.survey.host-associated.5.0"
+  },
+  "attribute": [
+    {
+      "attribute_name": "collection_date",
+      "display_name": "collection date",
+      "harmonized_name": "collection_date",
+      "content": "2018-07-30"
+    },
+    {
+      "attribute_name": "env_broad_scale",
+      "display_name": "broad-scale environmental context",
+      "harmonized_name": "env_broad_scale",
+      "content": "laboratory environment [ENVO:01001405]|environmental system determined by an organism [ENVO:01001000]|fungi-associated environment [ENVO:01001041]|temperate savanna biome [ENVO:01000189]"
+    },
+    {
+      "attribute_name": "env_local_scale",
+      "display_name": "local-scale environmental context",
+      "harmonized_name": "env_local_scale",
+      "content": "laboratory environment [ENVO:01001405]|environmental system determined by an organism [ENVO:01001000]|fungi-associated environment [ENVO:01001041]|temperate savanna biome [ENVO:01000189]"
+    },
+    {
+      "attribute_name": "env_medium",
+      "display_name": "environmental medium",
+      "harmonized_name": "env_medium",
+      "content": "air [ENVO:00002005]|humid air [ENVO:01000828]"
+    },
+    {
+      "attribute_name": "geo_loc_name",
+      "display_name": "geographic location",
+      "harmonized_name": "geo_loc_name",
+      "content": "USA:New Jersey,Wharton State Forest,Batona Field"
+    },
+    {
+      "attribute_name": "host",
+      "display_name": "host",
+      "harmonized_name": "host",
+      "content": "Trachymyrmex septentrionalis"
+    },
+    {
+      "attribute_name": "lat_lon",
+      "display_name": "latitude and longitude",
+      "harmonized_name": "lat_lon",
+      "content": "39.78 N 74.63 W"
+    },
+    {
+      "attribute_name": "treatment",
+      "display_name": "treatment",
+      "harmonized_name": "treatment",
+      "content": "PBS"
+    },
+    {
+      "attribute_name": "replicate",
+      "content": "r1"
+    },
+    {
+      "attribute_name": "day_p_treat",
+      "content": "0"
+    },
+    {
+      "attribute_name": "ants",
+      "content": "+"
+    },
+    {
+      "attribute_name": "sample_type",
+      "display_name": "sample type",
+      "harmonized_name": "sample_type",
+      "content": "fungus garden"
+    }
+  ]      
 }
