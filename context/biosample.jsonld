@@ -1,0 +1,195 @@
+{
+	"@context": [
+		"https://schema.org/docs/jsonldcontext.json",
+		{
+			"@vocab": "http://ddbj.nig.ac.jp/ontologies/biosample/",
+			"biosample": "http://ddbj.nig.ac.jp/ontologies/biosample/",
+			"identifier": {
+				"@id": "schema:identifier"
+			},
+			"organism": {
+				"@id": "biosample:organism"
+			},
+			"name": {
+				"@id": "schema:name"
+			},
+			"visibility": {
+				"@id": "biosample:visibility"
+			},
+			"downloadUrl": {
+				"@id": "schema:downloadUrl"
+			},
+			"ftpUrl": {
+				"@id": "biosample:ftpUrl"
+			},
+			"type": {
+				"@id": "biosample:type"
+			},
+			"url": {
+				"@id": "schema:url"
+			},
+			"description": {
+				"@id": "schema:description"
+			},
+			"dateModified": {
+				"@id": "schema:dateModified"
+			},
+			"title": {
+				"@id": "schema:title"
+			},
+			"isPartOf": {
+				"@id": "schema:isPartOf"
+			},
+			"distribution": {
+				"@id": "schema:distribution"
+			},
+			"contentUrl": {
+				"@id": "schema:contentUrl"
+			},
+			"encodingFormat": {
+				"@id": "schema:encodingFormat"
+			},
+			"dbXrefs": {
+				"@id": "biosample:dbXrefs"
+			},
+			"datePublished": {
+				"@id": "schema:datePublished"
+			},
+			"dateCreated": {
+				"@id": "schema:dateCreated"
+			},
+			"dbXrefsStatistics": {
+				"@id": "biosample:dbXrefsStatistics"
+			},
+			"count": {
+				"@id": "biosample:count"
+			},
+			"properties": {
+				"@id": "biosample:properties"
+			},
+			"Status": {
+				"@id": "biosample:Status"
+			},
+			"Owner": {
+				"@id": "biosample:Owner"
+			},
+			"access": {
+				"@id": "biosample:access"
+			},
+			"Description": {
+				"@id": "biosample:Description"
+			},
+			"Attributes": {
+				"@id": "biosample:Attributes"
+			},
+			"accession": {
+				"@id": "biosample:accession"
+			},
+			"submission_date": {
+				"@id": "biosample:submission_date"
+			},
+			"last_update": {
+				"@id": "biosample:last_update"
+			},
+			"publication_date": {
+				"@id": "biosample:publication_date"
+			},
+			"Ids": {
+				"@id": "biosample:Ids"
+			},
+			"Links": {
+				"@id": "biosample:Links"
+			},
+			"Models": {
+				"@id": "biosample:Models"
+			},
+			"Package": {
+				"@id": "biosample:Package"
+			},
+			"when": {
+				"@id": "biosample:when"
+			},
+			"status": {
+				"@id": "schema:status"
+			},
+			"Contacts": {
+				"@id": "biosample:Contacts"
+			},
+			"Name": {
+				"@id": "biosample:Name"
+			},
+			"Contact": {
+				"@id": "biosample:Contact"
+			},
+			"email": {
+				"@id": "schema:email"
+			},
+			"Last": {
+				"@id": "biosample:Last"
+			},
+			"First": {
+				"@id": "biosample:First"
+			},
+			"content": {
+				"@id": "biosample:content"
+			},
+			"Comment": {
+				"@id": "schema:Comment"
+			},
+			"Organism": {
+				"@id": "biosample:Organism"
+			},
+			"Title": {
+				"@id": "biosample:Title"
+			},
+			"Paragraph": {
+				"@id": "biosample:Paragraph"
+			},
+			"taxonomy_id": {
+				"@id": "biosample:taxonomy_id"
+			},
+			"OrganismName": {
+				"@id": "biosample:OrganismName"
+			},
+			"Attribute": {
+				"@id": "biosample:Attribute"
+			},
+			"attribute_name": {
+				"@id": "biosample:attribute_name"
+			},
+			"display_name": {
+				"@id": "biosample:display_name"
+			},
+			"harmonized_name": {
+				"@id": "biosample:harmonized_name"
+			},
+			"Id": {
+				"@id": "biosample:Id"
+			},
+			"is_primary": {
+				"@id": "biosample:is_primary"
+			},
+			"db": {
+				"@id": "biosample:db"
+			},
+			"db_label": {
+				"@id": "biosample:db_label"
+			},
+			"Link": {
+				"@id": "biosample:Link"
+			},
+			"label": {
+				"@id": "biosample:label"
+			},
+			"target": {
+				"@id": "schema:target"
+			},
+			"Model": {
+				"@id": "biosample:Model"
+			},
+			"sameAs": {
+				"@id": "schema:sameAs"
+			}
+		}
+	]
+}
